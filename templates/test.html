@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error: Not Signed Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+            transition: box-shadow 0.3s ease-in-out; /* Added transition for smooth effect */
+        }
+
+        .error-container:hover {
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2); /* Added shadow on hover */
+            cursor: pointer;
+        }
+        
+
+        h1 {
+            color: #ff6347; /* Tomato color */
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        /* Updated button styles */
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            display: inline-block;
+            width: 48%; /* Adjust width as needed */
+            margin: 5px; /* Add some margin for spacing */
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #297fb8;
+        }
+        .btn {
+            background-color: #ff6347;
+        }
+        .btn:hover {
+            background-color: #cb6451;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>Oops!</h1>
+        <p>Looks like you're not signed up. Please sign up to access the cart.</p>
+        <a href="signup"><button>Sign Up</button></a><a href="signin"><button>Sign In</button></a><br>
+        <a href="home"><button class="btn">Home</button></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Address</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .delivery-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: box-shadow 0.3s ease-in-out; /* Added transition for smooth effect */
+        }
+
+        .delivery-container:hover {
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2); /* Added shadow on hover */
+            cursor: pointer;
+        }
+        
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        address {
+            font-style: normal;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #297fb8;
+        }
+    </style>
+</head>
+<body>
+    <div class="delivery-container">
+        <h2>Delivery Address</h2>
+        <p>The following items will be delivered to your address:</p>
+        <address>
+            Name<br>
+            Address<br>
+           
+            PIN Code: 12345
+        </address><br>
+        <a href="payment"><button>Deliver to This Address</button></a>
+    </div>
+
+</body>
+</html>

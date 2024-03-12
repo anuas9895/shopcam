@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .order-details-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: box-shadow 0.3s ease-in-out; /* Added transition for smooth effect */
+        }
+
+        .order-details-container:hover {
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2); /* Added shadow on hover */
+            cursor: pointer;
+        }
+        
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #297fb8;
+        }
+    </style>
+</head>
+<body>
+    <div class="order-details-container">
+        <h2>Order Placed Successfully!</h2>
+        <p>Thank you for your purchase. Here are the details of your order:</p>
+
+        <ul>
+            <li><strong>Order Number:</strong> #</li>
+            <li><strong>Items Purchased:</strong>
+                <ul>
+                    <li>Product 1 - $29.99</li>
+                    <li></li>
+                </ul>
+            </li>
+            <li><strong>Delivery Address:</strong>
+                <address>
+                    Name<br>
+                    Address<br>
+                    
+                    PIN Code: 12345
+                </address>
+            </li>
+            <li><strong>Payment Details:</strong>
+                <ul>
+                    <li>Payment Method: </li>
+                    <li>Total Amount: </li>
+                    <!-- Add more payment details as needed -->
+                </ul>
+            </li>
+        </ul>
+
+        <a href="home"><button>Continue Shopping</button></a>
+    </div>
+</body>
+</html>
